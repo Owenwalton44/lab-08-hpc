@@ -1,0 +1,6 @@
+INFO book_list.txt  16
+INFO Key: pg141.txt, Path: /sfs/weka/scratch/csb5tg/books/pg141.txt
+INFO Running Qwen/Qwen2.5-1.5B-Instruct on cuda
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|          | 4/338 [00:00<00:09, 36.31it/s]Loading weights:  10%|█         | 34/338 [00:00<00:02, 146.21it/s]Loading weights:  18%|█▊        | 60/338 [00:00<00:01, 164.20it/s]Loading weights:  27%|██▋       | 90/338 [00:00<00:01, 203.22it/s]Loading weights:  39%|███▉      | 133/338 [00:00<00:00, 256.36it/s]Loading weights:  47%|████▋     | 159/338 [00:00<00:00, 221.47it/s]Loading weights:  60%|██████    | 204/338 [00:00<00:00, 268.16it/s]Loading weights:  70%|███████   | 237/338 [00:01<00:00, 256.27it/s]Loading weights:  78%|███████▊  | 264/338 [00:01<00:00, 229.73it/s]Loading weights:  88%|████████▊ | 298/338 [00:01<00:00, 248.67it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 243.22it/s]
+INFO (Summarized pg141.txt, historical fiction in 7.0 s)
+INFO (Uploaded pg141.txt in 7.3 s on udc-aw37-1)

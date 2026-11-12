@@ -104,8 +104,8 @@ def main():
 	summary, genre=summarize_book(read)
 	seconds = time.time() - start
 	logger.info(f"(Summarized {key}, {genre} in {seconds:.1f} s)")
-	jid= os.environ.get["SLURM_ARRAY_JOB_ID"]
-	tid=os.environ.get["SLURM_ARRAY_TASK_ID"]
+	jid= os.environ.get("SLURM_ARRAY_JOB_ID")
+	tid=os.environ.get("SLURM_ARRAY_TASK_ID")
 	job= f"{jid}_{tid}" if jid and tid else None
 	upload_summary(key,summary,genre,job)
 	seconds = time.time() - start
